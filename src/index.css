@@ -51,12 +51,28 @@ body {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: #bcbcbc; 
+  cursor: pointer; 
+}
+
+
 .calc-button.operator {
   background-color: orange;
   color: white;
 }
 
+.calc-button.operator:hover {
+  background-color: darkorange; 
+  cursor: pointer; 
+}
+
 .calc-button.clear {
   background-color: #777777;
+  color: white;
+}
+
+.calc-button.clear:hover {
+  background-color: rgb(78, 78, 78);
   color: white;
 }
